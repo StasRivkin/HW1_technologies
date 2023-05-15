@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -14,6 +15,6 @@ import java.time.LocalDate;
 public class Person {
     long id;
     String name;
-    LocalDate birthDay;
+    Date birthDate;
     Address address;
 }
